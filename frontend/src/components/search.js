@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import { useNavigate } from 'react-router-dom';
               
-export default function search(){
+export default function Search(){
   const [keyword, setKeyword] =useState("");
 const navigate = useNavigate();
 const searchHandler =() => {
